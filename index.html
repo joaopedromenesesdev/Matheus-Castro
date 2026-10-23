@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Matheus Silveira de Castro, CFP® — Especialista de Investimentos Íon Private no Itaú Unibanco. Gestão de R$ 900MM em custódia, assessoria patrimonial e sucessória para famílias de alta renda.">
+  <meta name="keywords" content="Matheus Silveira de Castro, Matheus Castro, CFP, Itaú Unibanco, Íon Private, Private Wealth Management, Planejamento Financeiro, Investimentos, Campinas">
+  <meta name="author" content="Matheus Silveira de Castro, CFP®">
+  <title>Matheus Silveira de Castro, CFP® — Especialista de Investimentos Íon Private | Itaú Unibanco</title>
+
+  <!-- Google Fonts: Playfair Display & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- Estilos Globais -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 1. Header / Navegação Minimalista Fixa com Backdrop Filter -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <a href="#hero" class="brand-monogram" aria-label="Voltar ao início">
+        <span class="brand-title">MATHEUS CASTRO</span>
+        <span class="brand-badge">CFP®</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#autoridade" class="nav-link">Métricas</a></li>
+          <li class="nav-item"><a href="#trajetoria" class="nav-link">Trajetória</a></li>
+          <li class="nav-item"><a href="#credenciais" class="nav-link">Credenciais & Formação</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="assets/images/Matheus-curriculo.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--outline-gold btn--sm" title="Abrir Currículo Executivo em PDF">
+          <svg class="btn-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <span>Currículo (PDF)</span>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu de navegação">
+          <span class="toggle-bar"></span>
+          <span class="toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="mainContent">
+
+    <!-- 2. Hero Section: Foto Oficial, Insígnia CFP®, Título Editorial e CTAs -->
+    <section class="hero-section" id="hero">
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Preservação e estruturação patrimonial com <span class="text-gold">rigor fiduciário</span> e visão global.
+          </h1>
+
+          <p class="hero-description">
+            Especialista de Investimentos Íon Private no Itaú Unibanco, com 10 anos dedicados à gestão patrimonial de famílias de alta renda. Gestão ativa de aproximadamente R$ 900 milhões sob custódia, unindo alocação estratégica de ativos e planejamento sucessório para relações sólidas de longo prazo.
+          </p>
+
+          <!-- Insígnia CFP de Destaque -->
+          <div class="hero-badge-card" id="cfpBadgeCard">
+            <div class="badge-emblem" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+            </div>
+            <div class="badge-info">
+              <div class="badge-header">
+                <strong class="badge-name">CFP® — Certified Financial Planner</strong>
+                <span class="badge-issuer">Associação Planejar / FPSB & ANBIMA (CEA, CPA-20, CPA-10)</span>
+              </div>
+              <p class="badge-caption">Padrão internacional de excelência em governança patrimonial, alocação multiativos e planejamento sucessório integral.</p>
+            </div>
+          </div>
+
+          <!-- CTAs Primários -->
+          <div class="hero-actions">
+            <a href="https://www.linkedin.com/in/matheuscastrocps" target="_blank" rel="noopener noreferrer" class="btn btn--gold">
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.53 1.53 0 0 0 1.53-1.53 1.53 1.53 0 0 0-3.06 0 1.53 1.53 0 0 0 1.53 1.53m1.4 10.74V9.93H5.06v9.57h2.8z"></path>
+              </svg>
+              <span>LinkedIn Oficial</span>
+            </a>
+
+            <a href="https://wa.me/5519992143757?text=Ol%C3%A1%20Matheus,%20gostaria%20de%20agendar%20uma%20conversa%20sobre%20gest%C3%A3o%20patrimonial." target="_blank" rel="noopener noreferrer" class="btn btn--surface">
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              <span>WhatsApp Direto</span>
+            </a>
+
+            <a href="assets/images/Matheus-curriculo.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--surface">
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="12" y1="18" x2="12" y2="12"></line>
+                <line x1="9" y1="15" x2="15" y2="15"></line>
+              </svg>
+              <span>Currículo em PDF</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="portrait-frame">
+            <div class="portrait-glow" aria-hidden="true"></div>
+            <img src="assets/images/matheus.jpeg" alt="Retrato oficial de Matheus Silveira de Castro, CFP® — Especialista de Investimentos Íon Private" class="portrait-image" width="600" height="600">
+            <div class="portrait-overlay-caption">
+              <span class="caption-title">Matheus Silveira de Castro, CFP®</span>
+              <span class="caption-subtitle">Especialista de Investimentos · Íon Private</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. Indicadores de Autoridade (Stats Grid com Contadores Reais) -->
+    <section class="authority-section" id="autoridade">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-kicker">Métricas de Relevância</span>
+          <h2 class="section-title">Solidez comprovada na gestão patrimonial de alta renda</h2>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <div class="stats-grid">
+          
+          <!-- Card 1: AUM R$ 900MM -->
+          <div class="stat-card" data-reveal>
+            <div class="stat-header">
+              <span class="stat-prefix">R$</span>
+              <span class="stat-value" data-counter="900">0</span>
+              <span class="stat-unit">MM</span>
+            </div>
+            <h3 class="stat-title">Em Custódia (AUM)</h3>
+            <p class="stat-desc">Aproximadamente R$ 900 milhões sob gestão consultiva individualizada no Íon Private.</p>
+          </div>
+
+          <!-- Card 2: 180 Clientes Ativos -->
+          <div class="stat-card" data-reveal>
+            <div class="stat-header">
+              <span class="stat-value" data-counter="180">0</span>
+              <span class="stat-unit">Ativos</span>
+            </div>
+            <h3 class="stat-title">Famílias & Clientes</h3>
+            <p class="stat-desc">Relações sólidas e de longo prazo com foco fiduciário, governança e alocação sob medida.</p>
+          </div>
+
+          <!-- Card 3: R$ 3-30MM Ticket por Família -->
+          <div class="stat-card" data-reveal>
+            <div class="stat-header">
+              <span class="stat-prefix">R$</span>
+              <span class="stat-value">3–30</span>
+              <span class="stat-unit">MM</span>
+            </div>
+            <h3 class="stat-title">Patrimônio das Famílias</h3>
+            <p class="stat-desc">Assessoria consultiva em estruturas patrimoniais complexas, planejamento familiar e sucessório.</p>
+          </div>
+
+          <!-- Card 4: +20 Anos de Mercado e Banking -->
+          <div class="stat-card" data-reveal>
+            <div class="stat-header">
+              <span class="stat-prefix">+</span>
+              <span class="stat-value" data-counter="20">0</span>
+              <span class="stat-unit">Anos</span>
+            </div>
+            <h3 class="stat-title">Mercado & Setor Bancário</h3>
+            <p class="stat-desc">10 anos dedicados ao Itaú Unibanco e trajetória iniciada em 2001 em TI bancária e análise quantitativa.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. Linha do Tempo Profissional Vertical -->
+    <section class="timeline-section" id="trajetoria">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-kicker">Histórico Institucional</span>
+          <h2 class="section-title">Uma linha do tempo de solidez, liderança e autoridade técnica</h2>
+          <p class="section-lead">Da arquitetura de sistemas bancários à condução de fortunas no ecossistema Private Banking.</p>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Trilho e Barra de Progresso Dourada Scroll-Trigger -->
+          <div class="timeline-track-wrapper" id="timelineTrackWrapper" aria-hidden="true">
+            <div class="timeline-track-base"></div>
+            <div class="timeline-track-progress" id="timelineProgressBar">
+              <span class="timeline-progress-glow"></span>
+            </div>
+          </div>
+
+          <!-- Item 1: Presente (Íon Private) -->
+          <article class="timeline-item timeline-item--current" data-timeline-step="1">
+            <div class="timeline-marker" aria-hidden="true">
+              <span class="marker-pulse"></span>
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-card-header">
+                <div class="timeline-main-info">
+                  <div class="timeline-meta">
+                    <span class="timeline-year">2021 — Atual</span>
+                    <span class="timeline-status">Posição Atual</span>
+                  </div>
+                  <h3 class="timeline-role">Especialista de Investimentos — Íon Private</h3>
+                  <div class="timeline-company">Banco Itaú S/A · Campinas, SP</div>
+                </div>
+                <div class="timeline-brand-badge" title="Itaú Íon Private">
+                  <img src="assets/logos/itau-ion.svg" alt="Logo Itaú Íon Private" class="timeline-logo-img" width="105" height="35">
+                </div>
+              </div>
+              <p class="timeline-text">
+                Gestão direta de carteira com 180 clientes ativos e aproximadamente R$ 900 milhões em custódia. Atendimento consultivo a famílias com patrimônio entre R$ 3 milhões e R$ 30 milhões. Assessoria estratégica em renda fixa, renda variável, produtos estruturados (COE), ofertas públicas e previdência privada, integrando planejamento patrimonial e sucessório com gestão de ROA, AUM e captação.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">Íon Private</span>
+                <span class="tag">R$ 900MM AUM</span>
+                <span class="tag">180 Famílias</span>
+                <span class="tag">Planejamento Sucessório</span>
+                <span class="tag">Produtos Estruturados</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 2: Uniclass Digital / Líbero -->
+          <article class="timeline-item" data-timeline-step="2">
+            <div class="timeline-marker" aria-hidden="true">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-card-header">
+                <div class="timeline-main-info">
+                  <div class="timeline-meta">
+                    <span class="timeline-year">2016 — 2021</span>
+                    <span class="timeline-duration">5 Anos</span>
+                  </div>
+                  <h3 class="timeline-role">Gerente de Relacionamento — Uniclass Digital / Líbero</h3>
+                  <div class="timeline-company">Banco Itaú S/A</div>
+                </div>
+                <div class="timeline-brand-badge" title="Itaú Uniclass Digital">
+                  <img src="assets/logos/itau-uniclass.svg" alt="Logo Itaú Uniclass Digital" class="timeline-logo-img" width="105" height="35">
+                </div>
+              </div>
+              <p class="timeline-text">
+                Início da trajetória no Itaú Uniclass com atendimento presencial, com rápida evolução para gerente de relacionamento na agência digital em apenas 3 meses. Posteriormente assumiu o cargo de Líbero na agência digital, expandindo a base de clientes de alta renda atendidos com foco em consultoria financeira e investimentos.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">Itaú Uniclass</span>
+                <span class="tag">Agência Digital</span>
+                <span class="tag">Gerente Líbero</span>
+                <span class="tag">Alta Renda</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 3: Gestão e Franquias -->
+          <article class="timeline-item" data-timeline-step="3">
+            <div class="timeline-marker" aria-hidden="true">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-card-header">
+                <div class="timeline-main-info">
+                  <div class="timeline-meta">
+                    <span class="timeline-year">2013 — 2016</span>
+                    <span class="timeline-duration">3 Anos</span>
+                  </div>
+                  <h3 class="timeline-role">Gestão Corporativa & Expansão de Franquias</h3>
+                  <div class="timeline-company">Kumon Brasil / QOY Chocolateira</div>
+                </div>
+                <div class="timeline-brand-badge" title="Kumon Brasil e QOY">
+                  <img src="assets/logos/kumon-qoy.svg" alt="Logo Kumon Brasil e QOY" class="timeline-logo-img" width="105" height="35">
+                </div>
+              </div>
+              <p class="timeline-text">
+                Atuação como Coordenador de Franquia no Kumon Brasil (2015–2016) e Proprietário da QOY Chocolateira e Cafeteria (2013–2015). Vivência profunda do dia a dia do empresário brasileiro, modelagem de viabilidade econômico-financeira, planos de negócios e expansão comercial de redes.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">Economia Real</span>
+                <span class="tag">Kumon Brasil</span>
+                <span class="tag">Viabilidade Financeira</span>
+                <span class="tag">Gestão de Negócios</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 4: TI Bancária Bradesco -->
+          <article class="timeline-item" data-timeline-step="4">
+            <div class="timeline-marker" aria-hidden="true">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-card-header">
+                <div class="timeline-main-info">
+                  <div class="timeline-meta">
+                    <span class="timeline-year">2001 — 2013</span>
+                    <span class="timeline-duration">12 Anos</span>
+                  </div>
+                  <h3 class="timeline-role">Analista de Sistemas — TI Bancária</h3>
+                  <div class="timeline-company">Banco Bradesco S/A</div>
+                </div>
+                <div class="timeline-brand-badge" title="Banco Bradesco">
+                  <img src="assets/logos/bradesco.svg" alt="Logo Banco Bradesco" class="timeline-logo-img" width="105" height="35">
+                </div>
+              </div>
+              <p class="timeline-text">
+                Mais de uma década de dedicação técnica ao desenvolvimento, sustentação e análise de arquiteturas críticas de sistemas bancários no Banco Bradesco. Consolidação de um raciocínio lógico rigoroso, governança de dados e visão integrada sobre a infraestrutura do sistema financeiro.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">Banco Bradesco</span>
+                <span class="tag">TI Bancária</span>
+                <span class="tag">Sistemas Críticos</span>
+                <span class="tag">Governança de Dados</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. Credenciais & Formação Acadêmica -->
+    <section class="credentials-section" id="credenciais">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-kicker">Reconhecimento Técnico & Educação</span>
+          <h2 class="section-title">Certificações de padrão ouro e formação executiva contínua</h2>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <!-- Carrossel Dinâmico de Credenciais e Formações -->
+        <div class="carousel-wrapper" id="credentialsCarousel" data-reveal>
+          
+          <!-- Controles do Carrossel: Filtros e Setas de Navegação -->
+          <div class="carousel-controls">
+            <div class="carousel-filter-tabs" role="tablist" aria-label="Filtrar credenciais">
+              <button class="filter-tab active" data-filter="all" role="tab" aria-selected="true">
+                <span>Todos</span>
+                <span class="filter-count">8</span>
+              </button>
+              <button class="filter-tab" data-filter="cert" role="tab" aria-selected="false">
+                <span>Certificações</span>
+                <span class="filter-count">4</span>
+              </button>
+              <button class="filter-tab" data-filter="edu" role="tab" aria-selected="false">
+                <span>Formação Acadêmica</span>
+                <span class="filter-count">4</span>
+              </button>
+            </div>
+
+            <div class="carousel-nav-arrows">
+              <button class="carousel-arrow-btn" id="carouselPrev" aria-label="Card anterior" disabled>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+              </button>
+              <button class="carousel-arrow-btn" id="carouselNext" aria-label="Próximo card">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Viewport e Pista dos Cards -->
+          <div class="carousel-viewport" id="carouselViewport" tabindex="0" aria-label="Carrossel de credenciais e qualificações">
+            <div class="carousel-track" id="carouselTrack">
+              
+              <!-- Card 1: CFP -->
+              <article class="carousel-card" data-category="cert" data-index="0" tabindex="0" role="button" aria-label="Ver detalhes da certificação CFP">
+                <div class="card-accent-line cert-accent" aria-hidden="true"></div>
+                <div class="card-badge-row">
+                  <span class="card-badge-tag cert-tag">Certificação Global</span>
+                  <span class="card-badge-emblem">CFP®</span>
+                </div>
+                <span class="card-issuer">Associação Planejar / FPSB</span>
+                <h3 class="card-title">Certified Financial Planner</h3>
+                <p class="card-desc">Distinção de padrão ouro internacional em governança fiduciária, planejamento patrimonial integral, gestão sucessória e alocação estratégica de investimentos.</p>
+                <div class="card-highlights">
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Alocação Multiativos & Gestão de Risco</span></div>
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Planejamento Fiscal e Sucessório Familiar</span></div>
+                </div>
+                <div class="card-hint" aria-hidden="true">
+                  <span>Ver aplicação no Private</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </div>
+                <!-- Painel Explicativo ao Parar ou Clicar -->
+                <div class="card-explanation-overlay" aria-hidden="true">
+                  <div class="explanation-top">
+                    <span class="explanation-badge">Relevância no Private Banking</span>
+                    <button class="explanation-close-btn" type="button" aria-label="Fechar detalhes">&times;</button>
+                  </div>
+                  <h4 class="explanation-title">Padrão Ouro em Planejamento Fiduciário</h4>
+                  <p class="explanation-text">Distinção internacional que garante excelência técnica e dever fiduciário absoluto. Capacita a estruturação holística de patrimônios familiares complexos: governança patrimonial, sucessão intergeracional, planejamento tributário, gestão de risco e alocação multiativos com total alinhamento de interesses.</p>
+                  <div class="explanation-pillars">
+                    <span class="pillar-tag">Planejamento Sucessório Familiar</span>
+                    <span class="pillar-tag">Governança Fiduciária</span>
+                    <span class="pillar-tag">Gestão Multiativos</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 2: CEA -->
+              <article class="carousel-card" data-category="cert" data-index="1" tabindex="0" role="button" aria-label="Ver detalhes da certificação CEA">
+                <div class="card-accent-line cert-accent" aria-hidden="true"></div>
+                <div class="card-badge-row">
+                  <span class="card-badge-tag cert-tag">Certificação ANBIMA</span>
+                  <span class="card-badge-emblem">CEA</span>
+                </div>
+                <span class="card-issuer">ANBIMA</span>
+                <h3 class="card-title">Especialista em Investimentos</h3>
+                <p class="card-desc">Habilitação técnica oficial para assessoria de clientes em todos os produtos do mercado de capitais brasileiro e internacional.</p>
+                <div class="card-highlights">
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Produtos Estruturados (COE), Renda Fixa & Ações</span></div>
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Fundos Exclusivos e Previdência Privada</span></div>
+                </div>
+                <div class="card-hint" aria-hidden="true">
+                  <span>Ver aplicação no Private</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </div>
+                <!-- Painel Explicativo ao Parar ou Clicar -->
+                <div class="card-explanation-overlay" aria-hidden="true">
+                  <div class="explanation-top">
+                    <span class="explanation-badge">Relevância no Private Banking</span>
+                    <button class="explanation-close-btn" type="button" aria-label="Fechar detalhes">&times;</button>
+                  </div>
+                  <h4 class="explanation-title">Especialista em Mercado de Capitais</h4>
+                  <p class="explanation-text">Habilitação técnica oficial da ANBIMA que atesta proficiência avançada em toda a esteira de produtos de investimento: renda fixa soberana e privada, ações, derivativos, produtos estruturados (COE), fundos exclusivos e previdência privada para carteiras de alta renda.</p>
+                  <div class="explanation-pillars">
+                    <span class="pillar-tag">Produtos Estruturados (COE)</span>
+                    <span class="pillar-tag">Alocação Tática e Estratégica</span>
+                    <span class="pillar-tag">Fundos Exclusivos</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 3: CPA-20 -->
+              <article class="carousel-card" data-category="cert" data-index="2" tabindex="0" role="button" aria-label="Ver detalhes da certificação CPA-20">
+                <div class="card-accent-line cert-accent" aria-hidden="true"></div>
+                <div class="card-badge-row">
+                  <span class="card-badge-tag cert-tag">Certificação ANBIMA</span>
+                  <span class="card-badge-emblem">CPA-20</span>
+                </div>
+                <span class="card-issuer">ANBIMA</span>
+                <h3 class="card-title">Certificação Profissional ANBIMA 20</h3>
+                <p class="card-desc">Qualificação com foco na distribuição de produtos de investimento para clientes dos segmentos Alta Renda e Private Banking.</p>
+                <div class="card-highlights">
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Códigos de Regulação e Melhores Práticas</span></div>
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Atendimento Fiduciário a Investidores Qualificados</span></div>
+                </div>
+                <div class="card-hint" aria-hidden="true">
+                  <span>Ver aplicação no Private</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </div>
+                <!-- Painel Explicativo ao Parar ou Clicar -->
+                <div class="card-explanation-overlay" aria-hidden="true">
+                  <div class="explanation-top">
+                    <span class="explanation-badge">Relevância no Private Banking</span>
+                    <button class="explanation-close-btn" type="button" aria-label="Fechar detalhes">&times;</button>
+                  </div>
+                  <h4 class="explanation-title">Atendimento Alta Renda e Private</h4>
+                  <p class="explanation-text">Qualificação direcionada ao segmento Alta Renda e Private Banking. Atesta domínio estrito das diretrizes de regulação, suitability, compliance e código de melhores práticas na distribuição e condução de soluções financeiras complexas.</p>
+                  <div class="explanation-pillars">
+                    <span class="pillar-tag">Suitability Avançado</span>
+                    <span class="pillar-tag">Governança & Compliance</span>
+                    <span class="pillar-tag">Investidores Qualificados</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 4: CPA-10 -->
+              <article class="carousel-card" data-category="cert" data-index="3" tabindex="0" role="button" aria-label="Ver detalhes da certificação CPA-10">
+                <div class="card-accent-line cert-accent" aria-hidden="true"></div>
+                <div class="card-badge-row">
+                  <span class="card-badge-tag cert-tag">Certificação ANBIMA</span>
+                  <span class="card-badge-emblem">CPA-10</span>
+                </div>
+                <span class="card-issuer">ANBIMA</span>
+                <h3 class="card-title">Certificação Profissional ANBIMA 10</h3>
+                <p class="card-desc">Base técnica regulatória comprovando sólido domínio sobre o Sistema Financeiro Nacional e princípios éticos de intermediação.</p>
+                <div class="card-highlights">
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Fundamentos de Macroeconomia e Mercado</span></div>
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Governança Regulatória Bancária</span></div>
+                </div>
+                <div class="card-hint" aria-hidden="true">
+                  <span>Ver aplicação no Private</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </div>
+                <!-- Painel Explicativo ao Parar ou Clicar -->
+                <div class="card-explanation-overlay" aria-hidden="true">
+                  <div class="explanation-top">
+                    <span class="explanation-badge">Relevância no Private Banking</span>
+                    <button class="explanation-close-btn" type="button" aria-label="Fechar detalhes">&times;</button>
+                  </div>
+                  <h4 class="explanation-title">Fundamentos Regulatórios do Mercado</h4>
+                  <p class="explanation-text">Certificação fundamental que chancela a base técnica e regulatória no sistema financeiro nacional, assegurando domínio sólido sobre princípios de economia, finanças, conduta institucional e rigorosa proteção ao investidor.</p>
+                  <div class="explanation-pillars">
+                    <span class="pillar-tag">Ética e Regulação</span>
+                    <span class="pillar-tag">Princípios Econômicos</span>
+                    <span class="pillar-tag">Fundamentos do SFN</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 5: MBA USP/Esalq -->
+              <article class="carousel-card" data-category="edu" data-index="4" tabindex="0" role="button" aria-label="Ver detalhes da formação USP Esalq">
+                <div class="card-accent-line edu-accent" aria-hidden="true"></div>
+                <div class="card-badge-row">
+                  <span class="card-badge-tag edu-tag">Pós-Graduação Executiva</span>
+                  <span class="card-badge-period">2025 — 2026</span>
+                </div>
+                <span class="card-issuer">USP / Esalq — Universidade de São Paulo</span>
+                <h3 class="card-title">MBA Executivo em Liderança & Inovação</h3>
+                <p class="card-desc">Formação executiva com ênfase em estratégia corporativa, finanças aplicadas, governança e modelagem de decisões estratégicas.</p>
+                <div class="card-highlights">
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Finanças Corporativas e Valuation</span></div>
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Estratégia e Tomada de Decisão em Mercados</span></div>
+                </div>
+                <div class="card-hint" aria-hidden="true">
+                  <span>Ver aplicação no Private</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </div>
+                <!-- Painel Explicativo ao Parar ou Clicar -->
+                <div class="card-explanation-overlay" aria-hidden="true">
+                  <div class="explanation-top">
+                    <span class="explanation-badge">Relevância no Private Banking</span>
+                    <button class="explanation-close-btn" type="button" aria-label="Fechar detalhes">&times;</button>
+                  </div>
+                  <h4 class="explanation-title">Liderança, Inovação & Estratégia</h4>
+                  <p class="explanation-text">Formação executiva de excelência na Universidade de São Paulo, integrando visão estratégica de novos modelos de negócios, governança corporativa, finanças aplicadas, valuation e liderança transformadora orientada a resultados empresariais.</p>
+                  <div class="explanation-pillars">
+                    <span class="pillar-tag">Estratégia Corporativa</span>
+                    <span class="pillar-tag">Modelagem Quantitativa</span>
+                    <span class="pillar-tag">Valuation de Negócios</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 6: Pós PUC-RS Banking -->
+              <article class="carousel-card" data-category="edu" data-index="5" tabindex="0" role="button" aria-label="Ver detalhes da formação PUC-RS Banking">
+                <div class="card-accent-line edu-accent" aria-hidden="true"></div>
+                <div class="card-badge-row">
+                  <span class="card-badge-tag edu-tag">Especialização</span>
+                  <span class="card-badge-period">Conclusão 2023</span>
+                </div>
+                <span class="card-issuer">PUC-RS</span>
+                <h3 class="card-title">Pós-graduação em Investimentos & Banking</h3>
+                <p class="card-desc">Especialização focada no ecossistema bancário avançado, análise quantitativa de ativos e arquitetura de soluções de crédito e investimento.</p>
+                <div class="card-highlights">
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Estruturação de Portfólios e Risco Bancário</span></div>
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Mercado de Capitais e Instrumentos Financeiros</span></div>
+                </div>
+                <div class="card-hint" aria-hidden="true">
+                  <span>Ver aplicação no Private</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </div>
+                <!-- Painel Explicativo ao Parar ou Clicar -->
+                <div class="card-explanation-overlay" aria-hidden="true">
+                  <div class="explanation-top">
+                    <span class="explanation-badge">Relevância no Private Banking</span>
+                    <button class="explanation-close-btn" type="button" aria-label="Fechar detalhes">&times;</button>
+                  </div>
+                  <h4 class="explanation-title">Engenharia Financeira & Banking Avançado</h4>
+                  <p class="explanation-text">Especialização imersiva na arquitetura do sistema bancário: análise quantitativa de risco e liquidez, estruturação de portfólios complexos, instrumentos de crédito estruturado e dinâmica macroeconômica do mercado de capitais.</p>
+                  <div class="explanation-pillars">
+                    <span class="pillar-tag">Engenharia Financeira</span>
+                    <span class="pillar-tag">Risco de Crédito & Liquidez</span>
+                    <span class="pillar-tag">Mercado de Capitais</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 7: MBA PUC-RS Liderança -->
+              <article class="carousel-card" data-category="edu" data-index="6" tabindex="0" role="button" aria-label="Ver detalhes da formação PUC-RS Liderança">
+                <div class="card-accent-line edu-accent" aria-hidden="true"></div>
+                <div class="card-badge-row">
+                  <span class="card-badge-tag edu-tag">Pós-Graduação</span>
+                  <span class="card-badge-period">Conclusão 2019</span>
+                </div>
+                <span class="card-issuer">PUC-RS</span>
+                <h3 class="card-title">MBA em Liderança, Inovação e Gestão</h3>
+                <p class="card-desc">Visão holística sobre desenvolvimento de equipes de alto desempenho, modelos ágeis de gestão e eficiência operacional de negócios.</p>
+                <div class="card-highlights">
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Liderança Estratégica em Organizações</span></div>
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Gestão da Mudança e Transformação de Negócios</span></div>
+                </div>
+                <div class="card-hint" aria-hidden="true">
+                  <span>Ver aplicação no Private</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </div>
+                <!-- Painel Explicativo ao Parar ou Clicar -->
+                <div class="card-explanation-overlay" aria-hidden="true">
+                  <div class="explanation-top">
+                    <span class="explanation-badge">Relevância no Private Banking</span>
+                    <button class="explanation-close-btn" type="button" aria-label="Fechar detalhes">&times;</button>
+                  </div>
+                  <h4 class="explanation-title">Gestão de Equipes & Eficiência Operacional</h4>
+                  <p class="explanation-text">Desenvolvimento holístico voltado à gestão estratégica de pessoas, metodologias ágeis, eficiência de processos operacionais e condução de transformações organizacionais em ambientes de alta exigência corporativa.</p>
+                  <div class="explanation-pillars">
+                    <span class="pillar-tag">Liderança Estratégica</span>
+                    <span class="pillar-tag">Gestão da Mudança</span>
+                    <span class="pillar-tag">Eficiência Operacional</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 8: Graduação PUC-Campinas -->
+              <article class="carousel-card" data-category="edu" data-index="7" tabindex="0" role="button" aria-label="Ver detalhes da graduação PUC-Campinas">
+                <div class="card-accent-line edu-accent" aria-hidden="true"></div>
+                <div class="card-badge-row">
+                  <span class="card-badge-tag edu-tag">Graduação</span>
+                  <span class="card-badge-period">Conclusão 2010</span>
+                </div>
+                <span class="card-issuer">PUC-Campinas</span>
+                <h3 class="card-title">Graduação em Análise de Sistemas</h3>
+                <p class="card-desc">Formação técnica analítica fundamental, capacitando a interpretação lógica rigorosa de dados e arquitetura de sistemas bancários críticos.</p>
+                <div class="card-highlights">
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Pensamento Lógico e Análise Estruturada</span></div>
+                  <div class="highlight-item"><span class="highlight-bullet">—</span><span>Engenharia de Dados e Infraestrutura de TI</span></div>
+                </div>
+                <div class="card-hint" aria-hidden="true">
+                  <span>Ver aplicação no Private</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </div>
+                <!-- Painel Explicativo ao Parar ou Clicar -->
+                <div class="card-explanation-overlay" aria-hidden="true">
+                  <div class="explanation-top">
+                    <span class="explanation-badge">Relevância no Private Banking</span>
+                    <button class="explanation-close-btn" type="button" aria-label="Fechar detalhes">&times;</button>
+                  </div>
+                  <h4 class="explanation-title">Arquitetura Lógica & Sistemas Críticos</h4>
+                  <p class="explanation-text">Formação técnica em ciências exatas e tecnologia da informação que sustentou 12 anos de atuação em arquiteturas críticas no Bradesco. Confere raciocínio lógico rigoroso, governança de dados e visão sistêmica sobre a infraestrutura financeira.</p>
+                  <div class="explanation-pillars">
+                    <span class="pillar-tag">Raciocínio Lógico Estruturado</span>
+                    <span class="pillar-tag">Arquiteturas Críticas</span>
+                    <span class="pillar-tag">Governança de Dados</span>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+          </div>
+
+          <!-- Indicadores de Paginação / Dots -->
+          <div class="carousel-pagination" id="carouselPagination" aria-label="Paginação do carrossel"></div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. Rodapé / Contacto Exclusivo -->
+    <section class="contact-section" id="contato">
+      <div class="container">
+        
+        <div class="contact-card" data-reveal>
+          <div class="contact-grid">
+            
+            <div class="contact-info">
+              <span class="section-kicker">Atendimento Privativo</span>
+              <h2 class="contact-heading">Inicie uma conversa confidencial sobre a gestão do seu patrimônio</h2>
+              <p class="contact-subheading">
+                Reuniões reservadas para análise estratégica de carteira, estruturação fiduciária, planejamento sucessório e alocação sob medida.
+              </p>
+
+              <div class="contact-details">
+                <div class="detail-row">
+                  <span class="detail-label">Instituição:</span>
+                  <span class="detail-val">Banco Itaú S/A — Íon Private</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Telefone:</span>
+                  <span class="detail-val"><a href="tel:+5519992143757" class="contact-link">(19) 99214-3757</a></span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">E-mail:</span>
+                  <span class="detail-val"><a href="mailto:castro.matheus@gmail.com" class="contact-link">castro.matheus@gmail.com</a></span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Atendimento:</span>
+                  <span class="detail-val">Campinas, SP — Presencial e sessões digitais para todo o Brasil</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Credenciamento:</span>
+                  <span class="detail-val">Planejador Financeiro CFP® | ANBIMA CEA, CPA-20, CPA-10</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-channels">
+              
+              <!-- Canal WhatsApp Direto -->
+              <div class="channel-card">
+                <span class="channel-tag">Agendamento Ágil</span>
+                <h3 class="channel-title">Diálogo via WhatsApp</h3>
+                <p class="channel-desc">Canal reservado para solicitação de reunião patrimonial privativa.</p>
+                <a href="https://wa.me/5519992143757?text=Ol%C3%A1%20Matheus,%20gostaria%20de%20agendar%20uma%20conversa%20sobre%20gest%C3%A3o%20patrimonial." target="_blank" rel="noopener noreferrer" class="btn btn--gold btn--full">
+                  <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                  </svg>
+                  <span>Iniciar Conversa no WhatsApp</span>
+                </a>
+              </div>
+
+              <!-- Canal LinkedIn -->
+              <div class="channel-card">
+                <span class="channel-tag">Canal Oficial</span>
+                <h3 class="channel-title">LinkedIn Executivo</h3>
+                <p class="channel-desc">Acompanhe análises sobre conjuntura de mercado e conexões corporativas.</p>
+                <a href="https://www.linkedin.com/in/matheuscastrocps" target="_blank" rel="noopener noreferrer" class="btn btn--surface btn--full">
+                  <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.53 1.53 0 0 0 1.53-1.53 1.53 1.53 0 0 0-3.06 0 1.53 1.53 0 0 0 1.53 1.53m1.4 10.74V9.93H5.06v9.57h2.8z"></path>
+                  </svg>
+                  <span>Acessar Perfil no LinkedIn</span>
+                </a>
+              </div>
+
+              <!-- Currículo Executivo em PDF -->
+              <div class="channel-card">
+                <span class="channel-tag">Documento Oficial</span>
+                <h3 class="channel-title">Currículo Executivo (PDF)</h3>
+                <p class="channel-desc">Consulte o resumo curricular completo com histórico de atuações e certificações.</p>
+                <a href="assets/images/Matheus-curriculo.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--outline-gold btn--full">
+                  <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="12" y1="18" x2="12" y2="12"></line>
+                    <line x1="9" y1="15" x2="15" y2="15"></line>
+                  </svg>
+                  <span>Abrir Currículo em PDF</span>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé Institucional -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="brand-title">MATHEUS SILVEIRA DE CASTRO</span>
+        <span class="brand-badge">CFP®</span>
+        <p class="footer-tagline">Especialista de Investimentos · Íon Private | Banco Itaú S/A</p>
+      </div>
+
+      <div class="footer-legal">
+        <p>
+          As marcas Itaú, Íon e CFP® são de titularidade de suas respectivas instituições e são mencionadas a título de identificação e histórico de certificação profissional.
+        </p>
+        <p class="footer-copyright">
+          © <span id="currentYear"></span> Matheus Silveira de Castro, CFP®. Todos os direitos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts Vanilla -->
+  <script src="main.js"></script>
+</body>
+</html>

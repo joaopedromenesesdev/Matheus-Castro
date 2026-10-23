@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 32" width="120" height="32" fill="none">
+  <!-- Itaú Rounded Square Emblem -->
+  <rect x="4" y="4" width="24" height="24" rx="7" fill="#EC7000" />
+  <text x="16" y="20.5" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="-0.5">itaú</text>
+  <!-- Íon Private text -->
+  <text x="35" y="17" fill="#F5F5F7" font-family="'Inter', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.5">íon</text>
+  <text x="35" y="27" fill="#C5A880" font-family="'Inter', sans-serif" font-size="8" font-weight="600" letter-spacing="1.4">PRIVATE</text>
+</svg>
