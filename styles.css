@@ -1291,30 +1291,6 @@ button {
   color: var(--accent-gold);
 }
 
-.explanation-close-btn {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  color: var(--text-secondary);
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  font-size: 1.15rem;
-  line-height: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all var(--transition-fast);
-  padding: 0;
-}
-
-.explanation-close-btn:hover {
-  background: rgba(197, 168, 128, 0.25);
-  color: var(--text-primary);
-  border-color: var(--accent-gold);
-  transform: scale(1.08);
-}
-
 .explanation-title {
   font-family: var(--font-serif);
   font-size: 1.18rem;
@@ -1991,12 +1967,6 @@ body.menu-open {
   .card-explanation-overlay {
     padding: 1.35rem 1.15rem;
     touch-action: pan-y;
-  }
-
-  .explanation-close-btn {
-    width: 36px;
-    height: 36px;
-    font-size: 1.35rem;
   }
 
   .explanation-title {

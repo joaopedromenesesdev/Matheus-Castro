@@ -427,24 +427,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }, { passive: true });
 
-    // Interações de Clique / Toque nos Cards e Botão Fechar Explicação
+    // Interações de Clique / Toque nos Cards
     allCards.forEach(card => {
-      const closeBtn = card.querySelector('.explanation-close-btn');
-      if (closeBtn) {
-        closeBtn.addEventListener('click', (e) => {
-          e.stopPropagation();
-          card.classList.remove('is-expanded');
-          isExpandedCardOpen = allCards.some(c => c.classList.contains('is-expanded'));
-          if (!isHovered) {
-            resumeAutoplayDelayed(800);
-          }
-        });
-      }
-
-      card.addEventListener('click', (e) => {
-        // Se clicou no botão de fechar, o listener específico acima já cuidou
-        if (e.target.closest('.explanation-close-btn')) return;
-
+      card.addEventListener('click', () => {
         const wasExpanded = card.classList.contains('is-expanded');
 
         // Fecha outros cards abertos
